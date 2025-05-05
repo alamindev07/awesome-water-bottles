@@ -13,7 +13,7 @@ function App() {
     <>
      
       <Suspense fallback={<h3>All bottles are Loading...</h3>}>
-      <h1>Buy Awesome water bottle </h1>
+      <h2>Buy Awesome water bottle </h2>
         <Bottles bottlesPromise ={bottlesPromise}></Bottles>
       </Suspense>
       
